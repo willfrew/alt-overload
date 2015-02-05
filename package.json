@@ -1,9 +1,26 @@
 {
     "name": "alt-overload",
-    "version": "0.0.0",
-    "private": true,
+    "version": "0.0.1",
+    "description": "Operator overloading library for Node.js",
+    "bin": {
+        "module-name": "./bin/module-name"
+    },
+    "main": "lib/foo.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WillFrew/alt-overload"
+    },
+    "bugs": {
+        "url": "https://github.com/WillFrew/alt-overload/issues"
+    },
+    "keywords": [
+        "overload",
+        "operator",
+        "overloading"
+    ],
     "dependencies": {
-        "thousandprimes" : "*",
-        "underscore" : "1.7.0"
-    }
+        "thousandprimes": "*"
+    },
+    "private": true,
+    "license": "MIT"
 }
