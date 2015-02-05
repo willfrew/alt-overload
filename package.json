@@ -1,0 +1,9 @@
+{
+    "name": "alt-overload",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "thousandprimes" : "*",
+        "underscore" : "1.7.0"
+    }
+}
